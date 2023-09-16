@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Quelle video aujourd'hui ?</title>
+	<meta charset="utf-8">
+	<title>Séance de Sport</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<h1>Quelle video aujourd'hui</h1>
-	<button id="go">lancer une video</button>
-	<p id="resultat"></p>
+	<main>
+		<h1>Ma séance du jour</h1>
+		<div class="barre-bouton">
+			<button class="bouton cardio" id="cardio">Cardio</button>
+			<button class="bouton muscu" id="muscu">Musculation</button>
+		</div>
+		
+		<div>
+			<iframe id="video" width="1280" height="720" src="https://www.youtube.com/embed/7AtfAynzXkA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+
+ 		<div class="barre-bouton" id="barre-bouton">
+<!-- 			<button class="echauffement">Echaufement 1</button>
+			<button class="echauffement">Echaufement 2</button>  -->
+		</div>
+	</main>
 </body>
 <script type="text/javascript" src="script.js"></script>
 </html>

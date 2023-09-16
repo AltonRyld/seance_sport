@@ -1,14 +1,27 @@
 {
-	"src" : [
-		"https://youtu.be/7AtfAynzXkA", 
-		"https://youtu.be/GBxBYYyQ-7o",
-		"https://youtu.be/jdK613LoTeE",
-		"https://youtu.be/mdA7UWUYin4",
-		"https://youtu.be/Xi26Grg7bPc"
-		"https://youtu.be/QD2Qji2eGvs"
-		"https://youtu.be/HON0oXs8mvg"
-		"https://youtu.be/1gmAdkVDyzY"
-		"https://youtu.be/MpdkaBa4oCY"
-		"https://youtu.be/GnRkj8yaPqg"
+	"muscu" : [
+		"GBxBYYyQ-7o",
+		"jdK613LoTeE",
+		"mdA7UWUYin4",
+		"Xi26Grg7bPc",
+		"QD2Qji2eGvs",
+		"HON0oXs8mvg",
+		"1gmAdkVDyzY",
+		"MpdkaBa4oCY",
+		"GnRkj8yaPqg"
+	],
+	"cardio" : [
+		"7AtfAynzXkA"
+	],
+
+	"echauffement" : [
+		{
+			"nom" : "bâton",
+			"source": "e7ZvWK6EbsI?list=PLV2PjK0u2OkKE2NF83dXd9V1I8aqjZZoO"
+		},
+		{
+			"nom" : "muscu",
+			"source": "pcgzgl8b5C8"
+		}
 	]
 }
